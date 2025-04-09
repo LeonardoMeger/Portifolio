@@ -28,7 +28,7 @@ const projects = [
         title: 'SpaceX Explorer',
         description: 'Consumo de uma API pública para exibir informações sobre os lançamentos da SpaceX.',
         technologies: ['Angular', 'typescript', 'html', 'css'],
-        image: 'C:/PortifolioLeonardoMeger/img/logo/spacex-chamada_2.jpg',
+        image: '../img/logo/spacex-chamada_2.jpg',
         github: 'https://github.com/LeonardoMeger/spacex-explorer/',
         demo: 'https://spacex-explorer-tan.vercel.app/'
     }
