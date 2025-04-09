@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Desenvolvedor .NET & Angular</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">Meu Portfólio</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Desenvolvedor Full Stack</h1>
+            <h2 class="animate-text-delay">.NET | Angular | JavaScript</h2>
+            <div class="tech-stack">
+                <i class="fab fa-dotnet"></i>
+                <i class="fab fa-angular"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre Mim</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Sou um Desenvolvedor Full Stack especializado em C# .NET e Angular, com experiência no desenvolvimento de aplicações empresariais, APIs RESTful e interfaces responsivas. Busco sempre entregar soluções eficientes, escaláveis e de fácil manutenção, aplicando boas práticas de desenvolvimento e arquitetura limpa.</p><br>
+                <p>Atuei no desenvolvimento de novas funcionalidades para um e-commerce de peças automotivas, criando páginas com exportação de relatórios e automatizando processos com C#, ASP.NET e SQL. Atualmente, trabalho em projetos para uma construtora, desenvolvendo sites de captação de clientes e integrando APIs externas para um CRM Dynamics. Também tenho experiência no setor educacional, onde desenvolvi funcionalidades para um sistema de análise de provas escolares, gerando gráficos e indicadores de desempenho.</p><br>
+                <p><b>Estou sempre em busca de aprimoramento profissional, explorando novas tecnologias e metodologias para entregar soluções inovadoras e de alto impacto.</b></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fab fa-dotnet"></i>
+                <h3>Backend</h3>
+                <ul>
+                    <li>C# .NET Core</li>
+                    <li>ASP.NET MVC</li>
+                    <li>Entity Framework</li>
+                    <li>Web API</li>
+                </ul>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fab fa-angular"></i>
+                <h3>Frontend</h3>
+                <ul>
+                    <li>Angular</li>
+                    <li>TypeScript</li>
+                    <li>RxJS</li>
+                    <li>Material Design</li>
+                </ul>
+            </div>
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fas fa-database"></i>
+                <h3>Banco de Dados</h3>
+                <ul>
+                    <li>SQL Server</li>
+                    <li>MongoDB</li>
+                    <li>Redis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="projects-grid">
+            <!-- Projetos serão adicionados dinamicamente via JavaScript -->
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Nome</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Mensagem</label>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
